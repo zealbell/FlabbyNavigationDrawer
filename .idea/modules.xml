@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FlabbyNavigationDrawer.iml" filepath="$PROJECT_DIR$/FlabbyNavigationDrawer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flabb/flabb.iml" filepath="$PROJECT_DIR$/flabb/flabb.iml" />
     </modules>
   </component>
 </project>

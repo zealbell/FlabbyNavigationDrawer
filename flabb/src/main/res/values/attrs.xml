@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlabbyNavigationDrawer">
+        <attr name="size" format="integer">
+            <enum name="ONE_QUARTER" value="0"/>
+            <enum name="HALF" value="1"/>
+            <enum name="THREE_QUARTERS" value="2"/>
+        </attr>
+        <attr name="flabbcolor" format="string"/>
+    </declare-styleable>
+</resources>

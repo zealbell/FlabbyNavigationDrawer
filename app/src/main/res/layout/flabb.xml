@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#cdcdcd"
     tools:context="linkersoft.blackpanther.flabbynavigationdrawer.Flabb">
 
     <TextView
@@ -14,5 +15,129 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <linkersoft.blackpanther.flabb.FlabbyNavigationDrawer
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:size="THREE_QUARTERS"
+        app:flabbcolor="#40ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:visibility="visible"
+            android:id="@+id/flankA"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight=".94"
+                android:layout_height="match_parent"
+                android:id="@+id/Navigation"
+                android:background="#607a58"
+                android:orientation="vertical">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="#40eaeaea"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#57764d"
+                        android:text="profile"
+                        android:padding="10dp"
+                        android:layout_gravity="center"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:alpha=".5"
+                        android:background="@drawable/nav_shadow_horizontal"
+                        android:layout_gravity="bottom"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#6D8964">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Item 0"
+                        android:padding="15dp"
+                        android:layout_gravity="center"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#20ffffff"
+                        android:layout_gravity="bottom"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"/>
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#6D8964">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Item 1"
+                        android:alpha=".5"
+                        android:padding="15dp"
+                        android:layout_gravity="center"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#20ffffff"
+                        android:layout_gravity="bottom"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"/>
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#6D8964">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Help / Tour"
+                        android:alpha=".5"
+                        android:padding="15dp"
+                        android:layout_gravity="center"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#20ffffff"
+                        android:layout_gravity="bottom"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"/>
+                </FrameLayout>
+
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_weight=".04"
+                android:layout_height="match_parent"
+                android:background="@drawable/nav_shadow_vertical"
+                android:id="@+id/offset" />
+        </LinearLayout>
+
+    </linkersoft.blackpanther.flabb.FlabbyNavigationDrawer>
 
 </android.support.constraint.ConstraintLayout>
