@@ -1,6 +1,6 @@
 [![Project Status: Active - Initial development has started, temporary release; work hasn't been stopped ](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
 
-BubblingImageView
+FlabbyNavigationDrawer
 =============
 A Flabby ViewPager as a Navigation Drawer.
 
