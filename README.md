@@ -2,7 +2,7 @@
 
 BubblingImageView
 =============
-A Flabby ViewPager as a Navigation Drawer
+A Flabby ViewPager as a Navigation Drawer.
 
 ## Appearance
 
